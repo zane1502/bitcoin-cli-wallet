@@ -1,0 +1,20 @@
+[package]
+name = "btclib"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = { version = "0.4.44", features = ["serde"] }
+ciborium = "0.2.2"
+ecdsa = { version = "0.16.9", features = ["signing", "verifying", "serde", "pem"] }
+hex = "0.4.3"
+k256 = { version = "0.13.4", features = ["serde", "pem"] }
+rand = "0.8"
+serde = { version = "1.0.228", features = ["derive"] }
+sha256 = "1.6.0"
+thiserror = "2.0.18"
+uint = "0.9.5"
+uuid = { version = "1.23.1", features = ["v4", "serde"] }
+bigdecimal = "0.4.5"
+spki = { version = "0.8.0", features = ["pem"] }
+tokio = { version = "1.52.1", features = ["net"] }

@@ -1,0 +1,17 @@
+default_node = "127.0.0.1:9000"
+
+[fee_config]
+fee_type = "Percent"
+value = 0.1
+
+# Add your own keys here
+# Enter the absolute path to the location of the keys
+# Right click on the file of the keys and copy the path
+# [[my_keys]]
+# public = "your-key.pub.pem"
+# private = "your-key.priv.cbor"
+
+# Add contacts here
+# [[contacts]]
+# name = "Friend"
+# key = "friend.pub.pem"

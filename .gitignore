@@ -1,0 +1,17 @@
+/target
+
+# Personal key files
+*.priv.cbor
+*.pub.pem
+
+# Blockchain & transaction data (regenerated at runtime)
+*.cbor
+
+# User-specific wallet config
+wallet/wallet_config.toml
+
+# Logs
+logs/
+
+# Backup copy
+miner_copy.rs
