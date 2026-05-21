@@ -1,6 +1,6 @@
 # rsbtc
 
-A toy Bitcoin implementation in Rust — a learning project featuring a full node, miner, wallet, and core library.
+A mini Bitcoin implementation in Rust — a learning project featuring a full node, miner, wallet, and core library.
 
 ## Architecture
 
